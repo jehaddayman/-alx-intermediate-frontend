@@ -3,7 +3,5 @@
 @tailwind utilities;
 
 @media (max-width: 768px) {
-  main {
-    grid-template-columns: 1fr;
-  }
+  main { grid-template-columns: 1fr; }
 }
