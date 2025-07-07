@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media (max-width: 768px) {
+      .gallery {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</head>
+<body class="p-4">
+  <header class="bg-blue-500 text-white p-4">
+    <h1 class="text-3xl">Image Gallery</h1>
+  </header>
+  <main class="grid grid-cols-3 gap-4 mt-4 gallery">
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+    <img src="https://via.placeholder.com/150" class="w-full h-auto" />
+  </main>
+</body>
+</html>
